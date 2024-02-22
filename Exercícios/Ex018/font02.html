@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        @font-face {
+            font-family: INTTERNO;
+            src: url(fonts/INTTERNO.otf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+                 Tipos de format()
+                 -opentype (otf)
+                 -truetype (ttf)
+                 -embedded-opentype
+                 -truetype-aat (Apple Advanced Typography)
+                 -svg
+            */
+        }
+        body{
+            font-family: "Playfair Display", Helvetica, sans-serif;
+            font-style: italic;
+            font-weight: bold;
+        }
+        h1{
+            font-family: 'INTTERNO', Times, serif;
+            font-size: 3em;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque rem explicabo, eligendi ipsum distinctio harum amet molestias libero deserunt commodi dicta temporibus maiores esse, molestiae error, reiciendis ad adipisci ducimus.</p>
+    
+</body>
+</html>

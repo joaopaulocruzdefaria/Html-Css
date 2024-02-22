@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(175, 237, 175);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(50, 107, 50);
+}
+h1#principal {  /* O ID so serve para UM ÚNICO ELEMENTO no seu código*/
+    text-align: center;
+    background-color: rgb(50, 107, 50);
+    color: white;
+}
+h2{
+    color: rgb(110, 165, 115);
+}
+.basico{
+     color: green;
+}
+.intermediario{
+     color: yellow;
+}
+.avancado{
+     color: red;
+}
+.destaque{
+    background-color: #f9f98577;
+}
