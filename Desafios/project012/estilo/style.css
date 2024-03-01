@@ -1,65 +1,82 @@
     @charset "UTF-8";
 
-    *{
-        margin: 0px;
-        padding: 0px;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-    html, body {
-        min-width: 100vh;
-        background-color: darkgray;
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+    
+    :root {
+        --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+        --fonte2: 'Passion One', cursive;
+        --fonte3: 'Sriracha' , cursive;
+        }
 
-    header{
-        background-color: black;
-        color: white;
-        text-align: center;
-    }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
 
-    header > h1{
-        padding-top: 50px;
-        font-variant: small-caps;
-    }
+        html, body {
+            min-width: 100vh;
+            background-color: darkgray;
+            font-family: var(--fonte1);
+        }
 
-    header > p{
-        padding-bottom: 50px;
-    }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: var(--fonte2);
+        }
 
-    a{
-        color: white;
-        text-decoration: none;
-        font-weight: bolder;
-    }
+        header > h1{
+            padding-top: 50px;
+            font-variant: small-caps;
+            font-size: 10vw;
+        }
 
-    a:hover{ 
-        text-decoration: underline;
-    }
+        header > p{
+            padding-bottom: 50px;
+        }
 
-    section{
-        padding-top: 5vh;
-        padding: 5vh;
-        line-height: 2em;
-        padding-left: 30px;       
-    }
+        a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
 
-    section.normal{
-        background-color: white;
-        color: black;
-    }
+        a:hover{ 
+            text-decoration: underline;
+        }
 
-    section.imagem{
-        background-color: rgb(50, 50, 50);
-        color: white;
-    }
+        section{
+            padding-top: 5vh;
+            padding: 5vh;
+            line-height: 2em;
+            padding-left: 30px;  
+            font-family: var(--fonte3);
+            font-size: 4.5vw;   
+        }
 
-    section.imagem > p{
-        width: 400px;
-        background-color: rgba(0, 0, 0, 0.235);
-    }
+        section.normal{
+            background-color: white;
+            color: black;
+        }
 
-    footer{
-        background-color: black;
-        color: white;
-        text-align: center;
-        padding: 10px;
-    }
+        section.imagem{
+            background-color: rgb(50, 50, 50);
+            color: white;
+        }
+
+        section.imagem > p{
+            display: inline-block;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.235);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 3vw;
+        }
